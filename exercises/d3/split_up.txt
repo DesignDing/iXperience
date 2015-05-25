@@ -1,0 +1,13 @@
+1.What class of objects can it be called on?
+String
+2.What class does it return?
+Array
+3.Does it take any arguments? How many? Are they required or optional?
+Yes. 1. optional
+4.If it takes arguments, what class should they be?
+String
+5.Give example usage.
+“Guten Tag!”.split
+==> [“Guten”,”Tag!”]
+6.Can you think of a method we've learned that behaves like the opposite of split?
+join

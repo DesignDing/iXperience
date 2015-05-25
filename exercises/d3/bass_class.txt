@@ -1,0 +1,3 @@
+FishClass
+instance: Shark
+method:Shark.bite
