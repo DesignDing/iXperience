@@ -1,0 +1,23 @@
+<h1>Hello! Welcome to Cape Town!</h1>
+<%= link_to 'New place', new_place_path %>
+
+	
+<% @places.each do |place| %>
+	
+	<div>
+		<!-- <strong><%= place.name %></strong> -->
+		<strong><%= link_to place.name, place_path(place) %></strong>
+		<p> <%= place.description %></p>
+	</div>
+ <tr>
+      <td><%= place.name %></td>
+      <td><%= place.description %></td>
+	  <td>. located at: <%= place.location %></td>
+      <td><%= link_to 'Show', place_path(place) %></td>
+      <td><%= link_to 'Edit', edit_place_path(place) %></td>
+      <td><%= link_to 'Destroy', place_path(place),
+              method: :delete,
+              data: { confirm: 'Are you sure?' } %></td>
+    </tr>
+	
+	<% end %>

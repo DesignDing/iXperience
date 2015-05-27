@@ -7,10 +7,10 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 Place.delete_all
 
-Place.create(name: 'Kirstenbosch Botanical Gardens', description: 'stunning garden, has great treetop canopy walkway', 
+Place.create(name: 'Kirstenbosch Botanical Gardens', description: 'Stunning garden, has great treetop canopy walkway', 
 	location: 'Rhodes Dr
 Newlands Cape Town 7735')
-Place.create(name:  'Clifton 4th beach', description: 'gorgeous stretch of sand and sea', 
+Place.create(name:  'Clifton 4th beach', description: 'Gorgeous stretch of sand and sea', 
 location: 'Clifton Cape Town 8005')
-Place.create(name: 'Rhodes Memoria', description:'a chilled spot for selfies and relaxing with friends', 
+Place.create(name: 'Rhodes Memoria', description:'A chilled spot for selfies and relaxing with friends', 
 location: 'Rhodes Avenue Cape Town')
