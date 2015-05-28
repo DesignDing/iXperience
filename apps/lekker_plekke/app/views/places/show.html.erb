@@ -3,6 +3,12 @@
 <p><%= @place.description %></p>
 <p>Located at: <%= @place.location %></p>
 
+<strong><p>Comments</p></strong>
+<%= render @place.comments %>
+ 
+<p>Add a comment:<p>
+<%= render 'comments/form' %>
+
 <p><%= link_to 'All Places', places_path %></p>   <!-- #it doesn't take params -->  
 <%= link_to 'Edit', edit_place_path(@place) %> |
 <%= link_to 'Back', places_path %>
